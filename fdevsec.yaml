@@ -1,0 +1,15 @@
+version: v1
+
+id:
+  org: ef7110c3-324c-4f34-91e6-4488410bd30f
+  app: d6f251a5-2b04-4f2d-a907-a88330b10b70
+
+# Optional parameters.
+scanners:
+  - sast
+
+languages:
+  - java
+
+resource:
+   serial_scan: false
